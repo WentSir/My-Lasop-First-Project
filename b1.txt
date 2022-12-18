@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.bundle.min.js">
+
+</head>
+
+<body></body>
+<p class="fst-italic d-block">this is a paragragh</p>
+
+<div class="d-flex flex-column flex-sm-row justify-content-between">
+    <h1 class="bg-warning">children1</h1>
+    <h1 class="bg-primary">childred2</h1>
+</div>
+
+<div class="container-fluid bg-dark text-white">Hello</div>
+<div class="container-fluid">
+    <h1 class="text-white bg-success p-5 w-75 m-auto">Hello world</h1>
+
+    <div class="row">
+        <div class="col-12 col-md-4 bg-primary">children1</div>
+        <div class="col-12 col-md-4 bg-warning">children2</div>
+        <div class="col-12 col-md-4 bg-info">children3</div>
+    </div>
+</div>
+
+br
+
+<div class="row">
+    <div class="col-12 col-md-3 bg-primary">children1</div>
+    <div class="col-12 col-md-3 bg-warning">children2</div>
+    <div class="col-12 col-md-3 bg-info">children3</div>
+    <div class="col-12 col-md-3 bg-secondary">children4</div>
+</div>
+
+
+
+  <header>
+<!--Navigation Bar-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="">Logo</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#link">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="link">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-end" href="">About</a></li>
+            <li class="nav-item"><a class="nav-link text-end" href="">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    </header>
+
+</body>
+</html>
